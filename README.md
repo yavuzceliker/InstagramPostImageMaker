@@ -1,8 +1,12 @@
 <center><h1>Instagram Post Image Maker</h1></center>
 It will be very useful if you are creating a post on a fixed draft for your social media account. 
-
+<meta name='keywords' content='Social API, Github Social Media, Instagram, Twitter, API, Sosyal Medya API, Sosyal, Post Image Maker, Instagram POST'>
 You can create pictures from the prepared API with get or post methods.
-
+<!--
+  Title: Social Media Post Image Maker
+  Description: Create fast and automatic social media post image.
+  Author: yavuzceliker
+  -->
 <table>
 <tr>
 <th colspan="3"><h4><center>Sample pictures</center></h4></th>
