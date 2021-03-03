@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name='keywords' content='Social API, Github Social Media, Instagram, Twitter, API, Sosyal Medya API, Sosyal, Post Image Maker, Instagram POSTYavuz ÇELİKER,yavuzceliker.com.tr,yavuzceliker,yavuzceliker_'>
-           <meta name="title" content="Social Media Post Image Maker">
-            <meta name="description" content="With this API, you can create square post images for instagram post images, twitter post images or any social media.">
+    <meta name="title" content="Social Media Post Image Maker">
+    <meta name="description" content="With this API, you can create square post images for instagram post images, twitter post images or any social media.">
     <meta name="author" content="Yavuz ÇELİKER">
     <link rel="icon" type="image/png" href="https://yavuzceliker.com.tr/assets/images/logo.png">
-    
+
     <title>Social Media Post Image Creator</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -67,8 +67,151 @@
                                         </div>
                                     </div>
                                     <div class="md-form">
-                                        <input id="color" type="text" class="form-control">
-                                        <label for="color">Text Color</label>
+                                        <label for="form-name">Font Family</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <select id="color" class="browser-default custom-select">
+                                                <option value="AliceBlue">AliceBlue rgba(240,248,255,255)</option>
+                                                <option value="AntiqueWhite">AntiqueWhite rgba(250,235,215,255)</option>
+                                                <option value="Aqua">Aqua rgba(0,255,255,255)</option>
+                                                <option value="Aquamarine">Aquamarine rgba(127,255,212,255)</option>
+                                                <option value="Azure">Azure rgba(240,255,255,255)</option>
+                                                <option value="Beige">Beige rgba(245,245,220,255)</option>
+                                                <option value="Bisque">Bisque rgba(255,228,196,255)</option>
+                                                <option value="Black">Black rgba(0,0,0,255)</option>
+                                                <option value="BlanchedAlmond">BlanchedAlmond rgba(255,235,205,255)</option>
+                                                <option value="Blue">Blue rgba(0,0,255,255)</option>
+                                                <option value="BlueViolet">BlueViolet rgba(138,43,226,255)</option>
+                                                <option value="Brown">Brown rgba(165,42,42,255)</option>
+                                                <option value="BurlyWood">BurlyWood rgba(222,184,135,255)</option>
+                                                <option value="CadetBlue">CadetBlue rgba(95,158,160,255)</option>
+                                                <option value="Chartreuse">Chartreuse rgba(127,255,0,255)</option>
+                                                <option value="Chocolate">Chocolate rgba(210,105,30,255)</option>
+                                                <option value="Coral">Coral rgba(255,127,80,255)</option>
+                                                <option value="CornflowerBlue">CornflowerBlue rgba(100,149,237,255)</option>
+                                                <option value="Cornsilk">Cornsilk rgba(255,248,220,255)</option>
+                                                <option value="Crimson">Crimson rgba(220,20,60,255)</option>
+                                                <option value="Cyan">Cyan rgba(0,255,255,255)</option>
+                                                <option value="DarkBlue">DarkBlue rgba(0,0,139,255)</option>
+                                                <option value="DarkCyan">DarkCyan rgba(0,139,139,255)</option>
+                                                <option value="DarkGoldenrod">DarkGoldenrod rgba(184,134,11,255)</option>
+                                                <option value="DarkGray">DarkGray rgba(169,169,169,255)</option>
+                                                <option value="DarkGreen">DarkGreen rgba(0,100,0,255)</option>
+                                                <option value="DarkKhaki">DarkKhaki rgba(189,183,107,255)</option>
+                                                <option value="DarkMagenta">DarkMagenta rgba(139,0,139,255)</option>
+                                                <option value="DarkOliveGreen">DarkOliveGreen rgba(85,107,47,255)</option>
+                                                <option value="DarkOrange">DarkOrange rgba(255,140,0,255)</option>
+                                                <option value="DarkOrchid">DarkOrchid rgba(153,50,204,255)</option>
+                                                <option value="DarkRed">DarkRed rgba(139,0,0,255)</option>
+                                                <option value="DarkSalmon">DarkSalmon rgba(233,150,122,255)</option>
+                                                <option value="DarkSeaGreen">DarkSeaGreen rgba(143,188,139,255)</option>
+                                                <option value="DarkSlateBlue">DarkSlateBlue rgba(72,61,139,255)</option>
+                                                <option value="DarkSlateGray">DarkSlateGray rgba(47,79,79,255)</option>
+                                                <option value="DarkTurquoise">DarkTurquoise rgba(0,206,209,255)</option>
+                                                <option value="DarkViolet">DarkViolet rgba(148,0,211,255)</option>
+                                                <option value="DeepPink">DeepPink rgba(255,20,147,255)</option>
+                                                <option value="DeepSkyBlue">DeepSkyBlue rgba(0,191,255,255)</option>
+                                                <option value="DimGray">DimGray rgba(105,105,105,255)</option>
+                                                <option value="DodgerBlue">DodgerBlue rgba(30,144,255,255)</option>
+                                                <option value="Firebrick">Firebrick rgba(178,34,34,255)</option>
+                                                <option value="FloralWhite">FloralWhite rgba(255,250,240,255)</option>
+                                                <option value="ForestGreen">ForestGreen rgba(34,139,34,255)</option>
+                                                <option value="Fuchsia">Fuchsia rgba(255,0,255,255)</option>
+                                                <option value="Gainsboro">Gainsboro rgba(220,220,220,255)</option>
+                                                <option value="GhostWhite">GhostWhite rgba(248,248,255,255)</option>
+                                                <option value="Gold">Gold rgba(255,215,0,255)</option>
+                                                <option value="Goldenrod">Goldenrod rgba(218,165,32,255)</option>
+                                                <option value="Gray">Gray rgba(128,128,128,255)</option>
+                                                <option value="Green">Green rgba(0,128,0,255)</option>
+                                                <option value="GreenYellow">GreenYellow rgba(173,255,47,255)</option>
+                                                <option value="Honeydew">Honeydew rgba(240,255,240,255)</option>
+                                                <option value="HotPink">HotPink rgba(255,105,180,255)</option>
+                                                <option value="IndianRed">IndianRed rgba(205,92,92,255)</option>
+                                                <option value="Indigo">Indigo rgba(75,0,130,255)</option>
+                                                <option value="Ivory">Ivory rgba(255,255,240,255)</option>
+                                                <option value="Khaki">Khaki rgba(240,230,140,255)</option>
+                                                <option value="Lavender">Lavender rgba(230,230,250,255)</option>
+                                                <option value="LavenderBlush">LavenderBlush rgba(255,240,245,255)</option>
+                                                <option value="LawnGreen">LawnGreen rgba(124,252,0,255)</option>
+                                                <option value="LemonChiffon">LemonChiffon rgba(255,250,205,255)</option>
+                                                <option value="LightBlue">LightBlue rgba(173,216,230,255)</option>
+                                                <option value="LightCoral">LightCoral rgba(240,128,128,255)</option>
+                                                <option value="LightCyan">LightCyan rgba(224,255,255,255)</option>
+                                                <option value="LightGoldenrodYellow">LightGoldenrodYellow rgba(250,250,210,255)</option>
+                                                <option value="LightGreen">LightGreen rgba(144,238,144,255)</option>
+                                                <option value="LightGray">LightGray rgba(211,211,211,255)</option>
+                                                <option value="LightPink">LightPink rgba(255,182,193,255)</option>
+                                                <option value="LightSalmon">LightSalmon rgba(255,160,122,255)</option>
+                                                <option value="LightSeaGreen">LightSeaGreen rgba(32,178,170,255)</option>
+                                                <option value="LightSkyBlue">LightSkyBlue rgba(135,206,250,255)</option>
+                                                <option value="LightSlateGray">LightSlateGray rgba(119,136,153,255)</option>
+                                                <option value="LightSteelBlue">LightSteelBlue rgba(176,196,222,255)</option>
+                                                <option value="LightYellow">LightYellow rgba(255,255,224,255)</option>
+                                                <option value="Lime">Lime rgba(0,255,0,255)</option>
+                                                <option value="LimeGreen">LimeGreen rgba(50,205,50,255)</option>
+                                                <option value="Linen">Linen rgba(250,240,230,255)</option>
+                                                <option value="Magenta">Magenta rgba(255,0,255,255)</option>
+                                                <option value="Maroon">Maroon rgba(128,0,0,255)</option>
+                                                <option value="MediumAquamarine">MediumAquamarine rgba(102,205,170,255)</option>
+                                                <option value="MediumBlue">MediumBlue rgba(0,0,205,255)</option>
+                                                <option value="MediumOrchid">MediumOrchid rgba(186,85,211,255)</option>
+                                                <option value="MediumPurple">MediumPurple rgba(147,112,219,255)</option>
+                                                <option value="MediumSeaGreen">MediumSeaGreen rgba(60,179,113,255)</option>
+                                                <option value="MediumSlateBlue">MediumSlateBlue rgba(123,104,238,255)</option>
+                                                <option value="MediumSpringGreen">MediumSpringGreen rgba(0,250,154,255)</option>
+                                                <option value="MediumTurquoise">MediumTurquoise rgba(72,209,204,255)</option>
+                                                <option value="MediumVioletRed">MediumVioletRed rgba(199,21,133,255)</option>
+                                                <option value="MidnightBlue">MidnightBlue rgba(25,25,112,255)</option>
+                                                <option value="MintCream">MintCream rgba(245,255,250,255)</option>
+                                                <option value="MistyRose">MistyRose rgba(255,228,225,255)</option>
+                                                <option value="Moccasin">Moccasin rgba(255,228,181,255)</option>
+                                                <option value="NavajoWhite">NavajoWhite rgba(255,222,173,255)</option>
+                                                <option value="Navy">Navy rgba(0,0,128,255)</option>
+                                                <option value="OldLace">OldLace rgba(253,245,230,255)</option>
+                                                <option value="Olive">Olive rgba(128,128,0,255)</option>
+                                                <option value="OliveDrab">OliveDrab rgba(107,142,35,255)</option>
+                                                <option value="Orange">Orange rgba(255,165,0,255)</option>
+                                                <option value="OrangeRed">OrangeRed rgba(255,69,0,255)</option>
+                                                <option value="Orchid">Orchid rgba(218,112,214,255)</option>
+                                                <option value="PaleGoldenrod">PaleGoldenrod rgba(238,232,170,255)</option>
+                                                <option value="PaleGreen">PaleGreen rgba(152,251,152,255)</option>
+                                                <option value="PaleTurquoise">PaleTurquoise rgba(175,238,238,255)</option>
+                                                <option value="PaleVioletRed">PaleVioletRed rgba(219,112,147,255)</option>
+                                                <option value="PapayaWhip">PapayaWhip rgba(255,239,213,255)</option>
+                                                <option value="PeachPuff">PeachPuff rgba(255,218,185,255)</option>
+                                                <option value="Peru">Peru rgba(205,133,63,255)</option>
+                                                <option value="Pink">Pink rgba(255,192,203,255)</option>
+                                                <option value="Plum">Plum rgba(221,160,221,255)</option>
+                                                <option value="PowderBlue">PowderBlue rgba(176,224,230,255)</option>
+                                                <option value="Purple">Purple rgba(128,0,128,255)</option>
+                                                <option value="Red">Red rgba(255,0,0,255)</option>
+                                                <option value="RosyBrown">RosyBrown rgba(188,143,143,255)</option>
+                                                <option value="RoyalBlue">RoyalBlue rgba(65,105,225,255)</option>
+                                                <option value="SaddleBrown">SaddleBrown rgba(139,69,19,255)</option>
+                                                <option value="Salmon">Salmon rgba(250,128,114,255)</option>
+                                                <option value="SandyBrown">SandyBrown rgba(244,164,96,255)</option>
+                                                <option value="SeaGreen">SeaGreen rgba(46,139,87,255)</option>
+                                                <option value="SeaShell">SeaShell rgba(255,245,238,255)</option>
+                                                <option value="Sienna">Sienna rgba(160,82,45,255)</option>
+                                                <option value="Silver">Silver rgba(192,192,192,255)</option>
+                                                <option value="SkyBlue">SkyBlue rgba(135,206,235,255)</option>
+                                                <option value="SlateBlue">SlateBlue rgba(106,90,205,255)</option>
+                                                <option value="SlateGray">SlateGray rgba(112,128,144,255)</option>
+                                                <option value="Snow">Snow rgba(255,250,250,255)</option>
+                                                <option value="SpringGreen">SpringGreen rgba(0,255,127,255)</option>
+                                                <option value="SteelBlue">SteelBlue rgba(70,130,180,255)</option>
+                                                <option value="Tan">Tan rgba(210,180,140,255)</option>
+                                                <option value="Teal">Teal rgba(0,128,128,255)</option>
+                                                <option value="Thistle">Thistle rgba(216,191,216,255)</option>
+                                                <option value="Tomato">Tomato rgba(255,99,71,255)</option>
+                                                <option value="Turquoise">Turquoise rgba(64,224,208,255)</option>
+                                                <option value="Violet">Violet rgba(238,130,238,255)</option>
+                                                <option value="Wheat">Wheat rgba(245,222,179,255)</option>
+                                                <option value="White">White rgba(255,255,255,255)</option>
+                                                <option value="WhiteSmoke">WhiteSmoke rgba(245,245,245,255)</option>
+                                                <option value="Yellow">Yellow rgba(255,255,0,255)</option>
+                                                <option value="YellowGreen">YellowGreen rgba(154,205,50,255)</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -255,7 +398,7 @@
                             <a href="https://yavuzceliker.com.tr"><i class="fas fa-link mr-1"></i> yavuzceliker.com.tr</a>
                         </td>
                         <td>
-                            <a href="https://github.com/yavuzceliker/InstagramPostImageMaker"><i class="fab fa-github mr-1"></i> yavuzceliker</a>
+                            <a href="https://github.com/yavuzceliker"><i class="fab fa-github mr-1"></i> yavuzceliker</a>
                         </td>
                     </tr>
                 </table>
@@ -284,10 +427,26 @@
             );
             return $state;
         };
+        function formatState2(state) {
+            if (!state.id) {
+                return state.text;
+            }
+            var backGround = state.text.split(' ')[1];
+            var split = backGround.substring(5).split(',');
+            var foreGround = (255 - split[0]) + "," + (255 - split[1]) + "," + (255 - split[2]);
+
+             var $state = $(
+                 "<span style='width:100%;height:100%; color:rgb(" + foreGround + "); background:" + backGround+";'>" + state.text.split(' ')[0] + "</span><span> " + state.text.split(' ')[1]+"</span>"
+            );
+            return $state;
+        };
 
 
         $(".js-example-templating").select2({
             templateResult: formatState
+        });
+        $("#color").select2({
+            templateResult: formatState2
         });
 
 
@@ -297,7 +456,7 @@
                 templateResult: formatState
             });
         });
-        
+
 
         $(".custom-range").on('input', function () {
             $("#" + $(this).attr("id") + "Label").html($(this).val());
