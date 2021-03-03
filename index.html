@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Social Media Post Image Creator</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <!--Section: Content-->
+        <section class="dark-grey-text">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-8 col-md-7 col-sm-12 mb-lg-0 pb-lg-3 mb-4">
+                    <!-- Form with header -->
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Header -->
+                            <div class=" card form-header blue accent-1 pt-3 pr-3 pl-3 pb-1 mb-2">
+                                <h3 class="font-weight-bold text-white text-center">Social Media Square Post Image Creator</h3>
+                            </div>
+                            <p class="dark-grey-text">Boş bırakılan yerler varsayılan değerleri alacaktır. </p>
+                            <!-- Body -->
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="md-form">
+                                        <input id="imageUrl" type="text" class="form-control">
+                                        <label for="imageUrl">Background Image URL</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <input id="logoUrl" type="text" class="form-control">
+                                        <label for="logoUrl">Logo URL</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <textarea id="text" class="form-control md-textarea" rows="3"></textarea>
+                                        <label for="text">Post Text</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <label for="form-name">Blur Ratio</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <input type="range" value="5" id="blurRatio" class="custom-range" min="0" max="400">
+                                            <span class="font-weight-bold text-primary ml-2 valueSpan2" id="blurRatioLabel">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="md-form">
+                                        <label for="form-name">Darkness Ratio</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <input type="range" value="50" id="darknessRatio" class="custom-range" min="0" max="255">
+                                            <span class="font-weight-bold text-primary ml-2 valueSpan2" id="darknessRatioLabel">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="md-form">
+                                        <input id="color" type="text" class="form-control">
+                                        <label for="color">Text Color</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="md-form">
+                                        <label for="form-name">Font Family</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <select id="font" class="browser-default custom-select">
+                                                <option>Arial</option>
+                                                <option>Arial Black</option>
+                                                <option>Bahnschrift</option>
+                                                <option>Bahnschrift Condensed</option>
+                                                <option>Bahnschrift Light</option>
+                                                <option>Bahnschrift Light Condensed</option>
+                                                <option>Bahnschrift Light SemiCondensed</option>
+                                                <option>Bahnschrift SemiBold</option>
+                                                <option>Bahnschrift SemiBold Condensed</option>
+                                                <option>Bahnschrift SemiBold SemiConden</option>
+                                                <option>Bahnschrift SemiCondensed</option>
+                                                <option>Bahnschrift SemiLight</option>
+                                                <option>Bahnschrift SemiLight Condensed</option>
+                                                <option>Bahnschrift SemiLight SemiConde</option>
+                                                <option>Calibri</option>
+                                                <option>Calibri Light</option>
+                                                <option>Cambria</option>
+                                                <option>Cambria Math</option>
+                                                <option>Candara</option>
+                                                <option>Candara Light</option>
+                                                <option>Comic Sans MS</option>
+                                                <option>Consolas</option>
+                                                <option>Constantia</option>
+                                                <option>Corbel</option>
+                                                <option>Corbel Light</option>
+                                                <option>Courier New</option>
+                                                <option>Dotum</option>
+                                                <option>DotumChe</option>
+                                                <option>Ebrima</option>
+                                                <option>Franklin Gothic Medium</option>
+                                                <option>Gabriola</option>
+                                                <option>Gadugi</option>
+                                                <option>Georgia</option>
+                                                <option>Gulim</option>
+                                                <option>GulimChe</option>
+                                                <option>Impact</option>
+                                                <option>Ink Free</option>
+                                                <option>Javanese Text</option>
+                                                <option>Leelawadee UI</option>
+                                                <option>Leelawadee UI Semilight</option>
+                                                <option>Lucida Console</option>
+                                                <option>Lucida Sans Unicode</option>
+                                                <option>Malgun Gothic</option>
+                                                <option>Malgun Gothic Semilight</option>
+                                                <option>Marlett</option>
+                                                <option>Microsoft Himalaya</option>
+                                                <option>Microsoft JhengHei</option>
+                                                <option>Microsoft JhengHei Light</option>
+                                                <option>Microsoft JhengHei UI</option>
+                                                <option>Microsoft JhengHei UI Light</option>
+                                                <option>Microsoft New Tai Lue</option>
+                                                <option>Microsoft PhagsPa</option>
+                                                <option>Microsoft Sans Serif</option>
+                                                <option>Microsoft Tai Le</option>
+                                                <option>Microsoft YaHei</option>
+                                                <option>Microsoft YaHei Light</option>
+                                                <option>Microsoft YaHei UI</option>
+                                                <option>Microsoft YaHei UI Light</option>
+                                                <option>Microsoft Yi Baiti</option>
+                                                <option>MingLiU</option>
+                                                <option>MingLiU-ExtB</option>
+                                                <option>MingLiU_HKSCS</option>
+                                                <option>MingLiU_HKSCS-ExtB</option>
+                                                <option>Mongolian Baiti</option>
+                                                <option>MS Gothic</option>
+                                                <option>MS PGothic</option>
+                                                <option>MS UI Gothic</option>
+                                                <option>MV Boli</option>
+                                                <option>Myanmar Text</option>
+                                                <option>Nirmala UI</option>
+                                                <option>Nirmala UI Semilight</option>
+                                                <option>NSimSun</option>
+                                                <option>Palatino Linotype</option>
+                                                <option>PMingLiU</option>
+                                                <option>PMingLiU-ExtB</option>
+                                                <option>Segoe MDL2 Assets</option>
+                                                <option>Segoe Print</option>
+                                                <option>Segoe Script</option>
+                                                <option>Segoe UI</option>
+                                                <option>Segoe UI Black</option>
+                                                <option>Segoe UI Emoji</option>
+                                                <option>Segoe UI Historic</option>
+                                                <option>Segoe UI Light</option>
+                                                <option>Segoe UI Semibold</option>
+                                                <option>Segoe UI Semilight</option>
+                                                <option>Segoe UI Symbol</option>
+                                                <option>SimSun</option>
+                                                <option>SimSun-ExtB</option>
+                                                <option>Sitka Banner</option>
+                                                <option>Sitka Display</option>
+                                                <option>Sitka Heading</option>
+                                                <option>Sitka Small</option>
+                                                <option>Sitka Subheading</option>
+                                                <option>Sitka Text</option>
+                                                <option>Sylfaen</option>
+                                                <option>Symbol</option>
+                                                <option>Tahoma</option>
+                                                <option>Times New Roman</option>
+                                                <option>Trebuchet MS</option>
+                                                <option selected>Verdana</option>
+                                                <option>Webdings</option>
+                                                <option>Wingdings</option>
+                                                <option>Yu Gothic</option>
+                                                <option>Yu Gothic Light</option>
+                                                <option>Yu Gothic Medium</option>
+                                                <option>Yu Gothic UI</option>
+                                                <option>Yu Gothic UI Light</option>
+                                                <option>Yu Gothic UI Semibold</option>
+                                                <option>Yu Gothic UI Semilight</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="custom-control custom-switch">
+                                        <input id="bold" value="true" type="checkbox" class="custom-control-input">
+                                        <label class="custom-control-label" for="bold">Bold</label>
+                                    </div>
+                                    <div class="custom-control custom-switch">
+                                        <input id="italic" value="true" type="checkbox" class="custom-control-input">
+                                        <label class="custom-control-label" for="italic">Italic</label>
+                                    </div>
+                                    <div class="custom-control custom-switch">
+                                        <input id="shadow" value="true" type="checkbox" class="custom-control-input">
+                                        <label class="custom-control-label" for="shadow">Text Shadow</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <label for="form-name">Vertical Alignment</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <select class="browser-default custom-select" id="verticalAlignment">
+                                                <option>Top</option>
+                                                <option selected>Middle</option>
+                                                <option>Bottom</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <label for="form-name">Horizontal Alignment</label><br />
+                                        <div class="d-flex justify-content-center my-4">
+                                            <select class="browser-default custom-select" id="horizontalAlignment">
+                                                <option>Left</option>
+                                                <option selected>Center</option>
+                                                <option>Right</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button id="save" class="btn btn-light-blue">Create Image</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form with header -->
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-5 col-sm-12">
+
+                    <!--Image-->
+                    <div id="imgContainer" class="view overlay z-depth-1-half ">
+                        <img style="height:100%;" id="img" src="https://yavuzceliker.com.tr/assets/images/logo.png" class=" mx-auto d-block "
+                             alt="">
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <div class="row text-center">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <a href="mailto:yavuz@yavuzceliker.com.tr"><i class="fas fa-envelope mr-1"></i> yavuz@yavuzceliker.com.tr</a>
+                        </td>
+                        <td>
+                            <a href="https://yavuzceliker.com.tr"><i class="fas fa-link mr-1"></i> yavuzceliker.com.tr</a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/yavuzceliker"><i class="fab fa-github mr-1"></i> yavuzceliker</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Grid row -->
+        </section>
+        <!--Section: Content-->
+    </div>
+    <div id="test"></div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        function formatState(state) {
+            if (!state.id) {
+                return state.text;
+            }
+            var $state = $(
+                "<span style='font-family:" + state.text + "'>" + state.text + "</span>"
+            );
+            return $state;
+        };
+
+
+        $(".js-example-templating").select2({
+            templateResult: formatState
+        });
+
+
+        $(document).ready(function () {
+            $("#imgContainer").height($("#imgContainer").width());
+            $('#font').select2({
+                templateResult: formatState
+            });
+        });
+        
+
+        $(".custom-range").on('input', function () {
+            $("#" + $(this).attr("id") + "Label").html($(this).val());
+        });
+
+
+        $("#save").click(function () {
+            var imageUrl = $("#imageUrl").val();
+            var logoUrl = $("#logoUrl").val();
+            var blurRatio = $("#blurRatio").val();
+            var darknessRatio = $("#darknessRatio").val();
+            var text = $("#text").val();
+            var font = $("#font").val();
+            var color = $("#color").val();
+            var bold = $("#bold").prop("checked");
+            var italic = $("#italic").prop("checked");
+            var shadow = $("#shadow").prop("checked");
+            var verticalAlignment = $("#verticalAlignment").val();
+            var horizontalAlignment = $("#horizontalAlignment").val();
+
+            if (imageUrl == "" || logoUrl == "" || text == "") {
+                alert("Image URL, logo URL and post text required.");
+                return;
+            }
+
+            var url = "https://social.yavuzceliker.com.tr/withnetworkimage";
+            url += "?imageUrl=" + imageUrl;
+            url += "&logoUrl=" + logoUrl;
+            url += "&blurRatio=" + blurRatio;
+            url += "&darknessRatio=" + darknessRatio;
+            url += "&text=" + text;
+            url += "&font=" + font;
+            url += "&color=" + color;
+            url += "&bold=" + bold;
+            url += "&italic=" + italic;
+            url += "&shadow=" + shadow;
+            url += "&verticalAlignment=" + verticalAlignment;
+            url += "&horizontalAlignment=" + horizontalAlignment;
+
+            $("#img").attr("src", url);
+        });
+
+
+    </script>
+</body>
+</html>
