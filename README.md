@@ -20,7 +20,7 @@ You can create pictures from the prepared API with get or post methods.
 </table>
 
 ### Demo
-Demo Link: <a href="https://instagrampostimagemaker.github.io">instagramPostImageMaker.githu.io</a>
+Demo Link: <a href="https://yavuzceliker.github.io/InstagramPostImageMaker">yavuzceliker.github.io/InstagramPostImageMaker</a>
 
 ### How To Use API
 API Root: https://social.yavuzceliker.com.tr/
