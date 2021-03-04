@@ -13,9 +13,9 @@ You can create pictures from the prepared API with get or post methods.
 <th colspan="3"><h4><center>Sample pictures</center></h4></th>
 </tr>
 <tr>
-<td><img src="https://social.yavuzceliker.com.tr/withnetworkimage?imageUrl=https://i.pinimg.com/originals/69/a4/2f/69a42ff7408eeb9d1d501640fc592785.jpg&logoUrl=https://converter.yavuzceliker.com.tr/Assets/Images/logo.png&blurRatio=7&darknessRatio=23&text=Social%20Media%20Post%20Image%20Creator&font=MV%20Boli&color=skyblue&bold=true&italic=false&shadow=true&verticalAlignment=Middle&horizontalAlignment=Center" ></td>
-<td><img src="https://social.yavuzceliker.com.tr/withnetworkimage?imageUrl=https://i2.wp.com/bedirhaber.com/wp-content/uploads/2019/08/G%C3%BCzel-bir-resim.jpg?fit=480%2C480&ssl=1&logoUrl=https://converter.yavuzceliker.com.tr/Assets/Images/logo.png&blurRatio=16&darknessRatio=90&text=Social%20Media%20Post%20Image%20Creator%20Sample%20Picture&font=Courier%20New&color=orange&bold=true&italic=false&shadow=true&verticalAlignment=Top&horizontalAlignment=Right" ></td>
-<td><img src="https://social.yavuzceliker.com.tr/withnetworkimage?imageUrl=https://www.arthipo.com/artblog/wp-content/uploads/2017/10/akrilik-boya-teknikleri-1080x675.jpg&logoUrl=https://pngimg.com/uploads/github/github_PNG15.png&blurRatio=0&darknessRatio=0&text=Social%20Media%20Post%20Image%20Creator&font=Courier%20New&color=deeppink&bold=true&italic=true&shadow=true&verticalAlignment=Bottom&horizontalAlignment=Center" ></td>
+<td><img src="https://user-images.githubusercontent.com/28116460/109987939-1c27f580-7d18-11eb-8ed5-49a79f07bb5c.jpg" ></td>
+<td><img src="https://user-images.githubusercontent.com/28116460/109988015-29dd7b00-7d18-11eb-8888-fe7b1106cf0b.jpg" ></td>
+<td><img src="https://user-images.githubusercontent.com/28116460/109988065-37930080-7d18-11eb-9d85-c3dc8c00855d.jpg" ></td>
 </tr>
 </table>
 
